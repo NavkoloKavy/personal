@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Roboto+Condensed:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+.footer {
+  background: url(../img/footer.jpg) 0 0/cover, no-repeat;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  color: #fff;
+  padding: 0 20px 20px 20px;
+}
+.footer img {
+  width: 200px;
+  padding: 40px;
+}
+.footer p {
+  padding: 0 0 5px 0;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 13px;
+}
+
+.maps__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.maps__link {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  color: #fff;
+  padding: 50px;
+  font-size: 25px;
+}
+.maps__ice {
+  background: url(../img/maps/ice.jpg) 0 0/cover, no-repeat;
+}
+.maps__ice:hover {
+  background: url(../img/maps/ice_hover.jpg) 0 0/cover, no-repeat;
+}
+.maps__autphors {
+  background: url(../img/maps/autphors.jpg) 0 0/cover, no-repeat;
+}
+.maps__autphors:hover {
+  background: url(../img/maps/autphors_hover.jpg) 0 0/cover, no-repeat;
+}
+.maps__tea {
+  background: url(../img/maps/tea.jpg) 0 0/cover, no-repeat;
+}
+.maps__tea:hover {
+  background: url(../img/maps/tea_hover.jpg) 0 0/cover, no-repeat;
+}
+.maps__avengers {
+  background: url(../img/maps/avengers.jpg) 0 0/cover, no-repeat;
+}
+.maps__avengers:hover {
+  background: url(../img/maps/avengers_hover.jpg) 0 0/cover, no-repeat;
+}
+.maps__classic {
+  background: url(../img/maps/classic.jpg) 0 0/cover, no-repeat;
+}
+.maps__classic:hover {
+  background: url(../img/maps/classic_hover.jpg) 0 0/cover, no-repeat;
+}
